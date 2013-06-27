@@ -1,0 +1,28 @@
+%html
+  %head
+    %title LUNCH LINK!
+    %link(href='/css/bootstrap.min.css' rel='stylesheet')
+
+  %body
+    .container
+      %header.jumbotron.subhead
+        .row
+          .span6
+            %h1 LunchLink
+            %p.lead When Linkers go to eat.
+
+          .span6
+
+      %section
+        .page-header
+          - if @schedule.is_today?
+            .well
+              %h1 Today is LunchLink! Yay!
+              %p
+                Look forward to 
+                %strong #{@schedule.current_person}
+                cooking up a storm!
+
+          %h1 Next up? #{@schedule.next_person}
+
+
