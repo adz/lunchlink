@@ -3,7 +3,7 @@ Lunchlink
 
 A lightweight app to see who's next to cook lunch in our little lunch club.
 
-See http://lunchapp.herokuapp.com
+See http://lunchlink.herokuapp.com
 
 Run it by git clone then:
 
