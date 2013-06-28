@@ -10,6 +10,7 @@ Run it by git clone then:
 
 = Possible future ideas?
 
+ * Reminder to next cook
  * Member management
  * Allow multiple lunch clubs, each with own members
  * Each lunch could have details of what will be cooked
