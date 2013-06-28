@@ -1,4 +1,5 @@
-= Lunchlink
+Lunchlink
+=========
 
 A lightweight app to see who's next to cook lunch in our little
 lunch club.
@@ -8,7 +9,8 @@ Run it by git clone then:
     bundle
     foreman start
 
-= Possible future ideas?
+Possible future ideas?
+----------------------
 
  * Reminder to next cook
  * Member management
