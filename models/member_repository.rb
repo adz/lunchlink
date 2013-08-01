@@ -1,5 +1,5 @@
 class MemberRepository
-  MEMBERS = %w(Noack Simon Jordan Kerri Adam Ty Smirnoff Jack)
+  MEMBERS = %w(Noack Simon Jordan Kerri Adam Ty Catrina Jack)
 
   def self.fetch(id)
     MEMBERS[id]
